@@ -1,0 +1,89 @@
+html,
+body {
+    font-family: "Lato", sans-serif;
+    color: #000;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 28px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 15px;
+    margin: 8px auto auto;
+}
+
+p {
+    font-size: 14px;
+    color: #000;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto auto;
+}
+
+/* Header */
+.header {
+    background-color: #fff;
+    padding: 20px 0 20px;
+}
+
+.header-logo {
+    max-width: 225px;
+    margin: auto;
+}
+
+/* Main Banner */
+.banner {
+    background: url(../img/banner.jpg) no-repeat scroll;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 275px 0;
+}
+
+.banner p {
+    font-size: 15px;
+    color: #fff;
+    max-width: 550px;
+    margin: auto;
+    padding: 0;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+/* Portfolio */
+.portfolio{
+    background-color: #eaf4f1;
+    padding: 20px;
+}
+
+.portfolio-item {
+    margin: auto;
+    padding: 20px 10px 50px;
+}
